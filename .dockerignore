@@ -1,0 +1,13 @@
+# Visual Studio Code
+.vscode/
+
+# Data
+data/*
+
+# Models
+models/*
+!models/word2vec.model
+!models/svm.joblib
+
+# Python
+__pycache__/

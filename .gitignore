@@ -1,0 +1,11 @@
+# Visual Studio
+.vscode/
+
+# Data
+data/
+
+# Models
+models/
+
+# Python
+__pycache__/
