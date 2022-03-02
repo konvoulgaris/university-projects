@@ -1,0 +1,26 @@
+{% extends "admin.html" %}
+
+{% block view %}
+<ul class="uk-list uk-list-striped">
+    {% for user in users %}
+    {% if user.email != g.user.email %}
+    <li>
+        <p>
+            <b>{{ user.email }}</b>
+            {% if "admin" == user.category %}
+            (Admin)
+            {% endif %}
+        </p>
+        <p>{{ user.name }}</p>
+        {% if "admin" != user.category %}
+        <form action="javascript:void(0)" onsubmit="return false">
+            <input type="hidden" name="email" value="{{ user.email }}">
+            <button class="uk-button uk-button-small uk-button-secondary" type="button" onclick="promoteUser(this.form)">UPGRADE TO ADMIN</button>
+            <button class="uk-button uk-button-small uk-button-danger" type="button" onclick="deleteUser(this.form)">DELETE USER</button>
+        </form>
+        {% endif %}
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>
+{% endblock %}

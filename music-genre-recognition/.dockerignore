@@ -1,0 +1,15 @@
+# Visual Studio Code
+.vscode/
+
+# Data
+data/*
+!data/genres.json
+
+# Models
+models/*
+!models/kneighbors.joblib
+!models/svm.joblib
+!models/keras.h5
+
+# Python
+__pycache__/

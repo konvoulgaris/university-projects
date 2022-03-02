@@ -1,0 +1,28 @@
+{% extends "admin.html" %}
+
+{% block view %}
+<button class="uk-button uk-button-primary uk-width-1-1" onclick="goToNewMoviePage()">ADD MOVIE</button>
+<ul class="uk-list uk-list-striped">
+    {% for movie in movies %}
+    <li>
+        <a href="/movie?title={{movie.title}}&year={{movie.year}}"><b>{{ movie.title }}</b> ({{ movie.year }})</a>
+        {% if movie.description|length > 100 %}
+        <p>{{ movie.description[:100] }}...</p>
+        {% else %}
+        <p>{{ movie.description }}</p>
+        {% endif %}
+        <ul class="uk-list uk-margin uk-flex uk-flex-wrap">
+            {% for actor in movie.actors %}
+            <li class="uk-margin-remove-top uk-margin-right">{{ actor }}</li>
+            {% endfor %}
+        </ul>
+        <form action="javascript:void(0)" onsubmit="return false">
+            <input type="hidden" name="title" value="{{ movie.title }}">
+            <input type="hidden" name="year" value="{{ movie.year }}">
+            <button class="uk-button uk-button-small uk-button-secondary" type="button" onclick="goToUpdateMoviePage(this.form)">EDIT MOVIE</button>
+            <button class="uk-button uk-button-small uk-button-danger" type="button" onclick="deleteMovie(this.form)">DELETE MOVIE</button>
+        </form>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}

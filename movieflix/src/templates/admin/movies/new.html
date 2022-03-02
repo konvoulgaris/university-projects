@@ -1,0 +1,31 @@
+{% extends "admin.html" %}
+
+{% block view %}
+{% if fail %}
+<div class="uk-alert-danger" uk-alert>
+    <a class="uk-alert-close" uk-close></a>
+    <p>Empty title or actor field. Please try again.</p>
+</div>
+{% endif %}
+<form action="/admin/movies/new", method="POST">
+    <fieldset class="uk-fieldset">
+        <legend class="uk-legend">Add New Movie</legend>
+        <div class="uk-margin">
+            <input class="uk-input" type="text" name="title" placeholder="Title">
+        </div>
+        <div class="uk-margin">
+            <input class="uk-input" type="number" name="year" placeholder="Year">
+        </div>
+        <div class="uk-margin">
+            <textarea class="uk-textarea" name="description" rows="5" placeholder="Description"></textarea>
+        </div>
+        <div class="uk-margin">
+            <input class="uk-input" name="actor" type="text" placeholder="Actor">
+        </div>
+        <button class="uk-button uk-button-secondary uk-width-1-1" type="button" onclick="addActor(this.form)">ADD ACTOR</button>
+        <ul id="actors-list" class="uk-list uk-list-striped uk-flex uk-flex-wrap"></ul>
+        <button class="uk-button uk-button-primary uk-width-1-1" type="submit">SUBMIT MOVIE</button>
+        <input id="actors-input" type="hidden" name="actors" value=""></input>
+    </fieldset>
+</form>
+{% endblock %}

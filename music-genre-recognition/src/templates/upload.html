@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="uk-margin-top">Results for:<br>{{ vid }}</h1>
+<div class="uk-card uk-card-default uk-card-body uk-card-hover uk-margin uk-text-center">
+    <h3>KNeighbors: {{ genres[kneighbors|int]|upper }}</h3>
+    <h3>SVM: {{ genres[svm|int]|upper }}</h3>
+    <h3>Keras: {{ genres[keras|int]|upper }}</h3>
+</div>
+<div class="uk-container uk-margin">
+    <img src="/api/upload/{{ vid }}.png" alt="Probability graph">
+</div>
+<div class="uk-card uk-card-default uk-card-body uk-card-hover uk-margin uk-width-1-2 uk-text-justify">
+    <h3 class="uk-card-title">Confidence</h3>
+    <p>Below you can see the confidence table for each genre and model</p>
+</div>
+<div class="uk-container uk-margin uk-flex">
+    <div class="uk-container uk-margin-right">
+        <ul class="uk-list uk-list-divider uk-margin-remove">
+            <li><b>GENRES</b></li>
+            {% for key, genre in genres.items() %}
+            <li>{{ genre|upper }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="uk-container uk-margin-right">
+        <ul class="uk-list uk-list-divider uk-margin-remove">
+            <li><b>KNEIGHBORS</b></li>
+            {% for k in results.kneighbors %}
+            <li>{{"%.2f" % k|float }}%</li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="uk-container uk-margin-right">
+        <ul class="uk-list uk-list-divider uk-margin-remove">
+            <li><b>SVM</b></li>
+            {% for s in results.svm %}
+            <li>{{"%.2f" % s|float }}%</li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="uk-container">
+        <ul class="uk-list uk-list-divider uk-margin-remove">
+            <li><b>KERAS</b></li>
+            {% for k in results.keras %}
+            <li>{{"%.2f" % k|float }}%</li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endblock %}

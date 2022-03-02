@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="uk-text-center">Music Genre Recognition</h1>
+<form class="uk-width-1-2" action="javascript:void(0)" onsubmit="downloadVideo(this)">
+	<div class="uk-margin">
+		<input class="uk-input uk-form-large" type="text" name="url" placeholder="YouTube URL">
+	</div>
+	<div class="uk-container uk-flex uk-flex-center uk-flex-middle">
+		<button class="uk-button uk-button-primary uk-button-large" type="submit">GO!</button>
+	</div>
+</form>
+<div id="spinner" uk-spinner="ratio: 3"></div>
+{% endblock %}
+
+{% block js %}
+<script src="{{ url_for('static', filename='js/index.js') }}"></script>
+{% endblock %}

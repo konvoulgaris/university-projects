@@ -1,0 +1,11 @@
+.uk-container {
+    position: relative;
+    background-color: whitesmoke;
+}
+
+#spinner {
+    display: none;
+    position: absolute;
+    top: 0;
+    margin-top: calc(100vh * 25%);
+}

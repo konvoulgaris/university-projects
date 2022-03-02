@@ -1,0 +1,15 @@
+{% extends "account.html" %}
+
+{% block view %}
+<ul class="uk-list uk-list-striped">
+    {% for movie in movies %}
+    {% for rating in movie.ratings %}
+    {% if rating.email == g.user.email %}
+    <li class="uk-flex uk-flex-between uk-width-1-1">
+        <p class="uk-margin-remove"><b><a href="{{ url_for('movie.view', title=movie.title, year=movie.year) }}">{{ movie.title }}:</a></b> {{ rating.rating }}/10</p>
+    </li>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+</ul>
+{% endblock %}

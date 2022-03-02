@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Admin",
+        "email": "admin@movieflix.com",
+        "password": "admin",
+        "category": "admin"
+    },
+    {
+        "name": "John",
+        "email": "john@mail.com",
+        "password": "john",
+        "category": "user"
+    },
+    {
+        "name": "Mary",
+        "email": "mary@mail.com",
+        "password": "mary",
+        "category": "user"
+    },
+    {
+        "name": "Bob",
+        "email": "bob@mail.com",
+        "password": "bob",
+        "category": "user"
+    }
+]

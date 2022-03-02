@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}
+MovieFlix - Admin
+{% endblock %}
+
+{% block content %}
+{% include "components/navbar.html" %}
+<div class="uk-container uk-margin uk-width-1-1">
+    <div class="uk-card uk-card-default uk-card-body uk-align-center uk-width-1-2">
+        <h3 class="uk-card-title uk-text-center">Admin Options</h3>
+        <p class="uk-text-center"><a class="uk-link-text" href="/admin/movies">Manage Movies</a></p>
+        <p class="uk-text-center"><a class="uk-link-text" href="/admin/users">Manage Users</a></p>
+    </div>
+    {% block view %}{% endblock %}
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/admin.js') }}"></script>
+{% endblock %}

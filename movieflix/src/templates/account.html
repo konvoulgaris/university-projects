@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}
+MovieFlix - Account
+{% endblock %}
+
+{% block content %}
+{% include "components/navbar.html" %}
+<div class="uk-container uk-margin uk-width-1-1">
+    <div class="uk-card uk-card-default uk-card-body uk-align-center uk-width-1-2">
+        <h3 class="uk-card-title uk-text-center">User Options</h3>
+        <p class="uk-text-center"><a class="uk-link-text" href="/account/ratings">Your Ratings</a></p>
+        <p class="uk-text-center"><a class="uk-link-text" href="/account/comments">Your Comments</a></p>
+        <button class="uk-button uk-button-danger uk-width-1-1" onclick="deleteAccount()">DELETE ACCOUNT</button>
+    </div>
+    {% block view %}{% endblock %}
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/account.js') }}"></script>
+{% endblock %}

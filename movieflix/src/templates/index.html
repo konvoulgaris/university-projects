@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}
+MovieFlix
+{% endblock %}
+
+{% block content %}
+{% include "components/navbar.html" %}
+<div class="uk-container uk-margin uk-width-1-1">
+    <div class="uk-container uk-flex uk-flex-center uk-flex-middle uk-width-1-1">
+        <form action="javascript:void(0)" class="uk-search uk-search-default uk-width-1-1">
+            <input class="uk-search-input" type="search" name="search" placeholder="Search..." onkeyup="searchMovies(this.form)">
+        </form>
+    </div>
+    <div id="view" class="uk-container uk-padding uk-width-1-1">
+        {% include "components/results.html" %}
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/index.js') }}"></script>
+{% endblock %}

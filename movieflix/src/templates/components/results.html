@@ -1,0 +1,11 @@
+<dl class="uk-description-list uk-description-list-divider">
+    {% for movie in movies %}
+    <dt><a href="{{ url_for('movie.view', title=movie.title, year=movie.year) }}"><b>{{ movie.title }}</b> ({{ movie.year }})</a>
+    </dt>
+    {% if movie.description|length > 250 %}
+    <dd>{{ movie.description[:250] }}...</dd>
+    {% else %}
+    <dd>{{ movie.description }}</dd>
+    {% endif %}
+    {% endfor %}
+</dl>

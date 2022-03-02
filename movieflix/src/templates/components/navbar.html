@@ -1,0 +1,12 @@
+<nav class="uk-navbar-container" uk-navbar>
+    <div class="uk-navbar-left">
+        <ul class="uk-navbar-nav">
+            <li><a href="/">HOME</a></li>
+            <li><a href="/account">ACCOUNT</a></li>
+            {% if "admin" == g.user.category %}
+            <li><a href="/admin">MANAGE</a></li>
+            {% endif %}
+            <li><a href="/logout">LOGOUT</a></li>
+        </ul>
+    </div>
+</nav>

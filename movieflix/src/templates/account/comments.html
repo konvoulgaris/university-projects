@@ -1,0 +1,15 @@
+{% extends "account.html" %}
+
+{% block view %}
+<ul class="uk-list uk-list-striped">
+    {% for movie in movies %}
+    {% for comment in movie.comments %}
+    {% if comment.email == g.user.email %}
+    <li class="uk-flex uk-flex-between uk-width-1-1">
+        <p class="uk-margin-remove"><b><a href="{{ url_for('movie.view', title=movie.title, year=movie.year) }}">{{ movie.title }}:</a></b> {{ comment.comment }}</p>
+    </li>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  mongodb:
+    container_name: movieflix-mongodb
+    image: mongo
+    ports:
+      - 27017:27017
+    restart: always
+  app:
+    container_name: movieflix-app
+    build: .
+    image: movieflix
+    ports:
+      - 5000:5000
+    environment:
+      - MONGO_HOST=movieflix-mongodb
+    restart: always

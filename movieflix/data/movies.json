@@ -1,0 +1,219 @@
+[
+    {
+        "title": "Star Wars",
+        "year": 1977,
+        "description": "In a distant galaxy eons before the creation of the planet known as Earth, vast civilizations have evolved, and ruling the galaxy is an interstellar Empire created from the ruins of an Old Republic that held sway for generations. It is a time of civil war, as solar systems have broken away from the Empire and are waging a war of rebellion. During a recent battle, technical schematics for a gigantic space station, code named the Death Star, have been unearthed by rebel spies, and a young woman who is a dissident member of the Imperial Senate, under the cover of a diplomatic mission to the planet Alderaan, is trying to smuggle these plans to the rebellion. But her spacecraft is attacked by a vast warship of the Empire and seized. The dissident Senator is captured, but the plans for the Death Star are nowhere to be found. While soldiers of the Empire search the nearby planet Tatooine, a series of incidents sweeps up a young desert farmer with dreams of being a fighter pilot in the rebellion, as he winds up with the Death Star plans and also the assistance of an elderly hermit who once served as a warrior of an ancient order whose chosen weapons were powerful energy swords known as light-sabers. The pair recruit a cynical interstellar smuggler and his outsized alien copilot with an ancient freighter heavily modified for combat to help them reach Alderaan, but the planet is obliterated and now the foursome must rescue the young woman held prisoner by the Empire and lead an attack by the rebellion against the Death Star before it can annihilate all hope of restoring freedom to the galaxy.",
+        "actors": [
+            "Mark Hamill",
+            "Harrison Ford",
+            "Carrie Fisher",
+            "Peter Cushing",
+            "Alec Guinness"
+        ],
+        "ratings": [
+            {
+                "email": "admin@movieflix.com",
+                "rating": 10
+            },
+            {
+                "email": "bob@mail.com",
+                "rating": 8.5
+            },
+            {
+                "email": "john@mail.com",
+                "rating": 8
+            },
+            {
+                "email": "mary@mail.com",
+                "rating": 7.1
+            }
+        ],
+        "comments": [
+            {
+                "email": "admin@movieflix.com",
+                "comment": "The movie that started it all"
+            },
+            {
+                "email": "bob@mail.com",
+                "comment": "I like the part with Mr. Spock!"
+            },
+            {
+                "email": "john@mail.com",
+                "comment": "It's pretty good"
+            },
+            {
+                "email": "mary@mail.com",
+                "comment": "Boy movie!!!"
+            }
+        ]
+    },
+    {
+        "title": "Star Wars: The Empire Strikes Back",
+        "year": 1980,
+        "description": "The story of Luke Skywalker, Han Solo, Princess Leia, and the others did not end with the destruction of the Death Star, it continues in this movie. Imperial forces have since driven the Rebels to hide on the ice world of Hoth. But even on such an icy, backwater world, they cannot escape the evil Darth Vader's eyes for long, and he devastates the Rebel base in an assault with the Imperial AT-AT walkers. Luke flees to Dagobah to begin Jedi training with Master Yoda, while Han Solo, Chewbacca, Princess Leia, and C-3PO run the blockade of Imperial Star Destroyers in the Millennium Falcon. The Imperials pursue them across the galaxy and eventually catch up with them on Bespin. Now Darth Vader plans to use them as bait to lure Luke Skywalker to him, and turns Han Solo over to Boba Fett as a prize to be delivered to crime lord Jabba the Hutt. Luke learns a terrible family secret after losing a swordfight with the Dark Lord. Will he, and the others, escape the Empire's clutches?",
+        "actors": [
+            "Mark Hamill",
+            "Harrison Ford",
+            "Carrie Fisher",
+            "Billy Dee Williams",
+            "Anthony Daniels"
+        ],
+        "ratings": [
+            {
+                "email": "admin@movieflix.com",
+                "rating": 10
+            },
+            {
+                "email": "bob@mail.com",
+                "rating": 8
+            },
+            {
+                "email": "mary@mail.com",
+                "rating": 8.4
+            }
+        ],
+        "comments": [
+            {
+                "email": "admin@movieflix.com",
+                "comment": "The perfect sequel"
+            },
+            {
+                "email": "bob@mail.com",
+                "comment": "Khan was a might foe!"
+            },
+            {
+                "email": "mary@mail.com",
+                "comment": "Even I liked this one"
+            }
+        ]
+    },
+    {
+        "title": "Star Wars: Return of the Jedi",
+        "year": 1983,
+        "description": "The Empire is more than halfway through construction of a new Death Star, almost twice as big, but more than twice as powerful. When completed, it will spell certain doom for Luke Skywalker and the rebels. Han Solo is a prisoner of crime lord Jabba the Hutt, and Princess Leia soon finds herself in the gangster's hands. Luke Skywalker, aided by C-3PO and R2-D2, makes his way into Jabba's palace, hoping to secure his friends' freedom. But Jabba has no intention of doing so, and tries to kill them all. After escaping from Jabba and the sands of Tatooine, they regroup with the rebel fleet, which is massing for an attack against the new satellite battle station at Endor. Lando Calrissian is pressed into action to lead the rebel fighter attack, while Han is put in charge of a group of soldiers to take out the shield generator protecting the Death Star. However, Luke Skywalker surrenders to Darth Vader's soldiers on Endor, and is taken in front of Vader's Master, Emperor Palpatine, on the Death Star for final corruption to the Dark Side of the Force. The fleet of Imperial Star Destroyers ambushes the rebels, cutting them off. Worse, the new Death Star begins turning its giant laser on the rebel carriers. It appears that nothing will stop the Empire's triumph, unless things start to change quickly.",
+        "actors": [
+            "Mark Hamill",
+            "Harrison Ford",
+            "Carrie Fisher",
+            "Billy Dee Williams",
+            "Anthony Daniels"
+        ],
+        "ratings": [
+            {
+                "email": "admin@movieflix.com",
+                "rating": 8.8
+            },
+            {
+                "email": "bob@mail.com",
+                "rating": 8
+            }
+        ],
+        "comments": [
+            {
+                "email": "admin@movieflix.com",
+                "comment": "A worthy conclusion"
+            }
+        ]
+    },
+    {
+        "title": "This Is It",
+        "year": 2009,
+        "description": "In 2008 Michael Jackson announced a history-making epic comeback that wouldn't be topped for decades to come. Calling the shows 'This Is It', he booked 50 back to back dates at London's O2 Arena that sold out in a matter of mere minutes. And he certainly wasn't about to disappoint - pulling in a budget for these shows that would rival most feature films and set about updating his classics from 'Smooth Criminal', 'The Man In The Mirror', 'Human Nature', 'Beat It', and of course 'Thriller' for the modern era. This movie consists of the rehearsal footage of the full set - with a tight back up band and dancers, and some really amazing video sequences and pyrotechnics - that was to be performed at the O2. However - not even the week before his tragic death of an overdose on June 25th, 2009, the band, the crew, and Michael himself were a week away from going to London to pull off the epic comeback. Instead the footage that exists from the rehearsals is only a sad reminder of what could have been: This Is It.",
+        "actors": [
+            "Michael Jackson"
+        ],
+        "ratings": [
+            {
+                "email": "admin@movieflix.com",
+                "rating": 8.1
+            },
+            {
+                "email": "john@mail.com",
+                "rating": 10
+            },
+            {
+                "email": "mary@mail.com",
+                "rating": 8.8
+            }
+        ],
+        "comments": [
+            {
+                "email": "john@mail.com",
+                "comment": "Seeing Mike would have been great! :("
+            },
+            {
+                "email": "mary@mail.com",
+                "comment": "I loved the sneak peek"
+            }
+        ]
+    },
+    {
+        "title": "Walk the Line",
+        "year": 2005,
+        "description": "While growing up in the Great Depression era, Johnny Cash takes an interest in music and eventually moves out of his Arkansas town to join the air force in Germany. While there, he buys his first guitar and writes his own music, and proposes to Vivian. When they got married, they settled in Tennessee and with a daughter, he supported the family by being a salesman. He discovers a man who can pursue his dreams and ends up getting a record with the boys. Shortly after that, he was on a short tour, promoting his songs, and meets the already famous and beautiful June Carter. Then as they get on the long-term tours with June, the boys, and Jerry Lee Lewis, they have this unspoken relationship that grows. But when June leaves the tour because of his behavior, he was a drug addict. His marriage was also falling apart, and when he sees June years later at an awards show, he forces June to tour with them again, promising June to support her two kids and herself. While the tour goes on, the relationship between June and John grow more,and his marriage to his first wife ends. June finds out about the drugs, and help him overcome it. True love and care helped John eventually stop the drug usage, and finally proposes to her in front of an audience at a show.",
+        "actors": [
+            "Joaquin Phoenix",
+            "Reese Witherspoon"
+        ],
+        "ratings": [
+            {
+                "email": "admin@movieflix.com",
+                "rating": 8.1
+            },
+            {
+                "email": "bob@mail.com",
+                "rating": 9.4
+            }
+        ],
+        "comments": [
+            {
+                "email": "bob@mail.com",
+                "comment": "I hear the train a comin'\r\nIt's rollin' 'round the bend,\r\nAnd I ain't seen the sunshine\r\nSince, I don't know when\r\nI'm stuck in Folsom Prison\r\nAnd time keeps draggin' on\r\nBut that train keeps a-rollin'\r\nOn down to San Antone"
+            }
+        ]
+    },
+    {
+        "title": "Bohemian Rhapsody",
+        "year": 2018,
+        "description": "Bohemian Rhapsody is a foot-stomping celebration of Queen, their music and their extraordinary lead singer Freddie Mercury. Freddie defied stereotypes and shattered convention to become one of the most beloved entertainers on the planet. The film traces the meteoric rise of the band through their iconic songs and revolutionary sound. They reach unparalleled success, but in an unexpected turn Freddie, surrounded by darker influences, shuns Queen in pursuit of his solo career. Having suffered greatly without the collaboration of Queen, Freddie manages to reunite with his bandmates just in time for Live Aid. While bravely facing a recent AIDS diagnosis, Freddie leads the band in one of the greatest performances in the history of rock music. Queen cements a legacy that continues to inspire outsiders, dreamers and music lovers to this day.",
+        "actors": [
+            "Rami Malek",
+            "Lucy Boynton",
+            "Gwilym Lee",
+            "Ben Hardy",
+            "Joseph Mazzello (as Joe Mazzello)"
+        ],
+        "ratings": [
+            {
+                "email": "admin@movieflix.com",
+                "rating": 7.9
+            },
+            {
+                "email": "bob@mail.com",
+                "rating": 1.9
+            },
+            {
+                "email": "john@mail.com",
+                "rating": 8.9
+            },
+            {
+                "email": "mary@mail.com",
+                "rating": 10
+            }
+        ],
+        "comments": [
+            {
+                "email": "bob@mail.com",
+                "comment": "I HATE IT"
+            },
+            {
+                "email": "john@mail.com",
+                "comment": "Miss you F.M.!"
+            },
+            {
+                "email": "mary@mail.com",
+                "comment": "We will rock you!"
+            }
+        ]
+    }
+]
